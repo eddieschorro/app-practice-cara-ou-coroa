@@ -12,7 +12,6 @@ import com.example.caraoucoroa_activities.R;
 
 public class SecondActivity extends AppCompatActivity {
 
-    //    TextView textView_nome, textView_CPF;
     ImageView imageView_back, imageView_coin;
 
     @Override
@@ -39,19 +38,6 @@ public class SecondActivity extends AppCompatActivity {
             }
         });
 
-
-//        textView_CPF = findViewById(R.id.textView_cpf);
-//        textView_nome = findViewById(R.id.textView_nome);
-//
-//        // O objeto de bundle é como uma matriz que recebe TODOS os argumentos da Intent anterior.
-//        Bundle dados = getIntent().getExtras();
-//
-//        // Para acessar o item desejado, basta acessá-lo e atribuir a alguma variável
-//        String nome = dados.getString("chaveNome");
-//        String cpf = dados.getString("chaveCPF");
-//
-//        textView_CPF.setText(cpf);
-//        textView_nome.setText(nome);
 
     }
 }

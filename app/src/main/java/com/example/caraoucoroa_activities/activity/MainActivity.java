@@ -33,23 +33,5 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-
-
-//        button = findViewById(R.id.button);
-//        button.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//
-//                Intent intent = new Intent(getApplicationContext(), SecondActivity.class);
-//
-//                // Passar dados
-//                intent.putExtra("chaveNome", "eddie");
-//                intent.putExtra("chaveCPF", "07793700902");
-//
-//                startActivity(intent);
-//
-//            }
-//        });
-
     }
 }
